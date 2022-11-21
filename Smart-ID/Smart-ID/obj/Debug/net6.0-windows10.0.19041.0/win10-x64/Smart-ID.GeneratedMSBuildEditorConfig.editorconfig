@@ -38,3 +38,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Smart_ID.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/navee/source/repos/SmartIdFYP2022/AI-Based-Smart_ID/Smart-ID/Smart-ID/Views/DashBoardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Smart_ID.Views.DashBoardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DashBoardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DashBoardPage.xaml
