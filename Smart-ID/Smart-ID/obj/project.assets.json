@@ -24573,11 +24573,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\7 th samester\\fyp1\\app\\Smart-ID\\Smart-ID\\Smart-ID.csproj",
+      "projectUniqueName": "C:\\Users\\Umair\\source\\repos\\AI-Based-Smart_ID\\smart pay1\\Smart-ID\\Smart-ID\\Smart-ID.csproj",
       "projectName": "Smart-ID",
-      "projectPath": "F:\\7 th samester\\fyp1\\app\\Smart-ID\\Smart-ID\\Smart-ID.csproj",
+      "projectPath": "C:\\Users\\Umair\\source\\repos\\AI-Based-Smart_ID\\smart pay1\\Smart-ID\\Smart-ID\\Smart-ID.csproj",
       "packagesPath": "C:\\Users\\Umair\\.nuget\\packages\\",
-      "outputPath": "F:\\7 th samester\\fyp1\\app\\Smart-ID\\Smart-ID\\obj\\",
+      "outputPath": "C:\\Users\\Umair\\source\\repos\\AI-Based-Smart_ID\\smart pay1\\Smart-ID\\Smart-ID\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

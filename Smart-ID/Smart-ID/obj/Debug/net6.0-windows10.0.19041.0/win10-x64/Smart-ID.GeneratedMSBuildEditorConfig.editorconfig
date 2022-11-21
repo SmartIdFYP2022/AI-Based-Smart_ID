@@ -7,39 +7,39 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Smart_ID
-build_property.ProjectDir = F:\7 th samester\fyp1\app\Smart-ID\Smart-ID\
+build_property.ProjectDir = C:\Users\Umair\source\repos\AI-Based-Smart_ID\smart pay1\Smart-ID\Smart-ID\
 
-[F:/7 th samester/fyp1/app/Smart-ID/Smart-ID/App.xaml]
+[C:/Users/Umair/source/repos/AI-Based-Smart_ID/smart pay1/Smart-ID/Smart-ID/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Smart_ID.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[F:/7 th samester/fyp1/app/Smart-ID/Smart-ID/AppShell.xaml]
+[C:/Users/Umair/source/repos/AI-Based-Smart_ID/smart pay1/Smart-ID/Smart-ID/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Smart_ID.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[F:/7 th samester/fyp1/app/Smart-ID/Smart-ID/MainPage.xaml]
+[C:/Users/Umair/source/repos/AI-Based-Smart_ID/smart pay1/Smart-ID/Smart-ID/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Smart_ID.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[F:/7 th samester/fyp1/app/Smart-ID/Smart-ID/Resources/Styles/Colors.xaml]
+[C:/Users/Umair/source/repos/AI-Based-Smart_ID/smart pay1/Smart-ID/Smart-ID/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Smart_ID.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[F:/7 th samester/fyp1/app/Smart-ID/Smart-ID/Resources/Styles/Styles.xaml]
+[C:/Users/Umair/source/repos/AI-Based-Smart_ID/smart pay1/Smart-ID/Smart-ID/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Smart_ID.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[F:/7 th samester/fyp1/app/Smart-ID/Smart-ID/Views/DashBoardPage.xaml]
+[C:/Users/Umair/source/repos/AI-Based-Smart_ID/smart pay1/Smart-ID/Smart-ID/Views/DashBoardPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Smart_ID.Views.DashBoardPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\DashBoardPage.xaml

@@ -10,317 +10,152 @@
 
         <vm:DashBoardViewModel />
     </ContentPage.BindingContext>
-    <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="0" Padding="0">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="380" />
-            <!--0-->
-            <RowDefinition Height="100"/>
-            <!--1-->
-            <RowDefinition Height="100"/>
-            <!--2-->
-            <RowDefinition Height="70"/>
-            <!--3-->
-            <RowDefinition Height="*"/>
-            <!--4-->
+    
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"></RowDefinition>
+                <RowDefinition Height="200"></RowDefinition>
+                <RowDefinition Height="300"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+       
 
-        </Grid.RowDefinitions>
-        <Border  Grid.Row="0" 
-                 Stroke="#e9e9e9"
-                 StrokeThickness="0"
-                 VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="-2,-2,-2,0" Padding="0" >
-            <Border.StrokeShape>
-                <RoundRectangle CornerRadius="0,0,70,70"/>
-            </Border.StrokeShape>
+        <!--top user profile frame -->
+        <Frame 
+                Grid.Row="0"
+                BackgroundColor="DarkOrange"
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="FillAndExpand"
+                Margin="0,-30,0,0"
+                CornerRadius="40"
+                BorderColor="Transparent"
+                >
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
 
-
-            <Frame 
+                </Grid.ColumnDefinitions>
                
-              
+                       
+            </Grid>
+
+            <!--space for image profile button  -->
+
+        </Frame>
+
+        <!--user card frame -->
+        <Frame 
+            Grid.Row="1"
+            Margin="20,-30,20,25"
+            BackgroundColor="Purple"
+            BorderColor="Transparent">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width=" *"></ColumnDefinition>
+                    <ColumnDefinition Width=" *"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"></RowDefinition>
+                    <RowDefinition Height="30"></RowDefinition>
+                    <RowDefinition Height="10"></RowDefinition>
+                    <RowDefinition Height="20"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Label Text="Current balance"
+                           FontSize="12"
+                           BackgroundColor="Transparent"
+                           TextColor="White"
+                           Grid.Column="0"
+                           Grid.Row="0">
+                    
+                </Label>
+                <Label 
+                    Grid.Column="0"
+                    Grid.Row="1"
+                    Text="$234234.24"
+                    BackgroundColor="Transparent"
+                    TextColor="White"
+                    FontSize="20"
+                    FontAttributes="Bold"
+                    >
+                </Label>
+
+                <Label Grid.Row="3"
+                       Grid.Column="0"
+                       Text="Debit"
+                       BackgroundColor="Transparent"
+                       TextColor="White">
+                    
+                </Label>
+                <Frame
+                    Grid.Row="4"
+                    Grid.Column="0"
+                    Margin="10"></Frame>
+
+                <Label Grid.Row="3"
+                       Grid.Column="1"
+                       Text="Credit"
+                       BackgroundColor="Transparent"
+                       TextColor="White">
+
+                </Label>
+                <Frame
+                    Grid.Row="4"
+                    Grid.Column="1"
+                    Margin="10"></Frame>
+            </Grid>
+            
+        </Frame>
+
+        <!--history user frame -->
+        <Frame
+            Grid.Row="2"
+            >
+            <Grid >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
                
-                Margin="0"
-            Padding="0"
-            VerticalOptions="FillAndExpand" 
-            HorizontalOptions="FillAndExpand"
-            CornerRadius="0">
-
-                <Frame.Background >
-
-                    <!-- Radius defaults to (0.5) -->
-                    <LinearGradientBrush >
-                        <GradientStop Color="#3084c0"
-                  Offset="1.0"/>
-                        <GradientStop Color="#37438c"
-                  Offset="1.0" />
-
-                        <GradientStop Color="#912a86"
-                  Offset="0.9" />
-                    </LinearGradientBrush>
-                </Frame.Background>
-                <Grid HeightRequest="50" VerticalOptions="StartAndExpand" Margin="0,40,0,0" >
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto"/>
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="4*"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-
-                    <ImageButton  Source="menu_icon.png" HeightRequest="30" WidthRequest="30" 
-                                  BackgroundColor="Transparent"  Grid.Column="0" Grid.Row="0"
-                                  VerticalOptions="Center" Padding="0" 
-                                 Command="{Binding FlayoutButton}"
-                              />
-
-                    <Grid Grid.Row="0" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" >
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="Auto"/>
-                            <RowDefinition Height="Auto"/>
-                        </Grid.RowDefinitions>
-
-                        <Frame Grid.Row="0" 
-                               HeightRequest="45" 
-                               WidthRequest="275"
-                               BorderColor="Transparent" 
-                               BackgroundColor="White" 
-                               CornerRadius="50" 
-                               Padding="20,0" 
-                               Margin="0"
-                               x:Name="SearchEntry"
-                               IsEnabled="False" IsVisible="hidden" >
-                            <Entry Placeholder=" Search" 
-                                   PlaceholderColor="Black" 
-                                   TextColor="Black"
-                                   Margin="0" 
-                                   VerticalOptions="CenterAndExpand" 
-                                   HorizontalOptions="FillAndExpand"
-                                   />
-                        </Frame>
-
-                        <Label Grid.Row="1" VerticalOptions="Center" HorizontalOptions="Center" x:Name="WelcomeLbl">
-                            <Label.FormattedText>
-                                <FormattedString >
-                                    <Span Text="Welcome back" TextColor="#a9c6df" FontSize="Title" />
-                                    <Span Text=",Arip! " TextColor="#f7f7f7" FontSize="Title"/>
-                                </FormattedString>
-                            </Label.FormattedText>
-                        </Label>
-
-                    </Grid>
-
-                    <ImageButton  Source="search.png" HeightRequest="28" WidthRequest="28" Grid.Column="2" Grid.Row="0" 
-                                 />
-
-                </Grid>
-
-            </Frame>
-        </Border>
-        <Grid Grid.Row="1" Margin="20,0,20,0" >
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-            <Frame 
+                    <Button
+                        Grid.Row="0"
                         Grid.Column="0"
-                        Margin="5,5,5,0"
-                        Padding="0"
-                        BackgroundColor="#fafafa"
-                        BorderColor="Transparent"
-                        CornerRadius="22"
-                        WidthRequest="170"
-                        HeightRequest="70">
-                <Frame.Shadow>
-                    <Shadow
-                        Brush="#a6b1c0" 
-                Offset="20,20"
-                Radius="40"
-                Opacity="0.8"/>
-                </Frame.Shadow>
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="3*"/>
-                    </Grid.ColumnDefinitions>
-                    <Image Source="menu_icon.svg" HorizontalOptions="Start" VerticalOptions="Center" Grid.Column="0" Margin="10,0,0,0"/>
-                    <Grid Grid.Column="1" Margin="10">
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="*" />
-                            <RowDefinition Height="*"/>
-                        </Grid.RowDefinitions>
-                        <Label Text="Document" TextColor="Black" FontSize="Medium" FontAttributes="Bold" Grid.Row="0" />
-                        <Label Text="6 GB Used " TextColor="#babbc1" FontSize="Caption" Grid.Row="1"/>
-                    </Grid>
-
-
-                </Grid>
-
-            </Frame>
-            <Frame 
+                        Text="DAY"
+                        BackgroundColor="Transparent"
+                        FontSize="12"
+                        TextColor="Black"
+                        FontAttributes="Bold"></Button>
+                <Button
+                        Grid.Row="0"
                         Grid.Column="1"
-                        Margin="5,5,5,0"
-                        Padding="0"
-                        BackgroundColor="#fafafa"
-                        BorderColor="Transparent"
-                        CornerRadius="22"
-                        WidthRequest="170"
-                        HeightRequest="70">
-                <Frame.Shadow>
-                    <Shadow
-                        Brush="#a6b1c0" 
-                Offset="20,20"
-                Radius="40"
-                Opacity="0.8"/>
-                </Frame.Shadow>
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="3*"/>
-                    </Grid.ColumnDefinitions>
-                    <Image Source="menu_icon.svg" HorizontalOptions="Start" VerticalOptions="Center" Grid.Column="0" Margin="10,0,0,0"/>
-                    <Grid Grid.Column="1" Margin="10">
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="*" />
-                            <RowDefinition Height="*"/>
-                        </Grid.RowDefinitions>
-                        <Label Text="Picture" TextColor="Black" FontSize="Medium" FontAttributes="Bold" Grid.Row="0" />
-                        <Label Text="4 GB Used " TextColor="#babbc1" FontSize="Caption" Grid.Row="1"/>
-                    </Grid>
-
-
-                </Grid>
-
-            </Frame>
+                        Text="WEEK"
+                        BackgroundColor="Transparent"
+                        FontSize="12"
+                        TextColor="Black"
+                        FontAttributes="Bold"></Button>
+                <Button
+                        Grid.Row="0"
+                        BackgroundColor="Transparent"
+                        Grid.Column="2"
+                        Text="MONTH"
+                        FontSize="12"
+                        TextColor="Black"
+                        FontAttributes="Bold"></Button>
+                   
+                   
+                
+            
+            </Grid>
+        
+        </Frame>
+        
+            
         </Grid>
-        <Grid Grid.Row="2" Margin="20,0,20,0">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-            <Frame 
-                        Grid.Column="0"
-                        Margin="5,5,5,0"
-                        Padding="0"
-                        BackgroundColor="#fafafa"
-                        BorderColor="Transparent"
-                        CornerRadius="22"
-                        WidthRequest="170"
-                        HeightRequest="70"
-                        >
-                <Frame.Shadow>
-                    <Shadow
-                        Brush="#a6b1c0" 
-                Offset="20,20"
-                Radius="40"
-                Opacity="0.8"/>
-                </Frame.Shadow>
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="3*"/>
-                    </Grid.ColumnDefinitions>
-                    <Image Source="menu_icon.svg" HorizontalOptions="Start" VerticalOptions="Center" Grid.Column="0" Margin="10,0,0,0"/>
-                    <Grid Grid.Column="1" Margin="10">
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="*" />
-                            <RowDefinition Height="*"/>
-                        </Grid.RowDefinitions>
-                        <Label Text="Video" TextColor="Black" FontSize="Medium" FontAttributes="Bold" Grid.Row="0" />
-                        <Label Text="8 GB Used " TextColor="#babbc1" FontSize="Caption" Grid.Row="1"/>
-                    </Grid>
-
-
-                </Grid>
-
-            </Frame>
-            <Frame 
-                        Grid.Column="1"
-                        Margin="5,5,5,0"
-                        Padding="0"
-                        BackgroundColor="#fafafa"
-                        BorderColor="Transparent"
-                        CornerRadius="22"
-                        WidthRequest="170"
-                        HeightRequest="70">
-                <Frame.Shadow>
-                    <Shadow
-                        Brush="#a6b1c0" 
-                Offset="20,20"
-                Radius="40"
-                Opacity="0.8"/>
-                </Frame.Shadow>
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="3*"/>
-                    </Grid.ColumnDefinitions>
-                    <Image Source="menu_icon.svg" HorizontalOptions="Start" VerticalOptions="Center" Grid.Column="0" Margin="10,0,0,0"/>
-                    <Grid Grid.Column="1" Margin="10">
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="*" />
-                            <RowDefinition Height="*"/>
-                        </Grid.RowDefinitions>
-                        <Label Text="Audio" TextColor="Black" FontSize="Medium" FontAttributes="Bold" Grid.Row="0" />
-                        <Label Text="1 GB Used " TextColor="#babbc1" FontSize="Caption" Grid.Row="1"/>
-                    </Grid>
-
-
-                </Grid>
-
-            </Frame>
-        </Grid>
-        <Grid Grid.Row="3" Margin="28,0,20,0">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="4*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-            <Label Text="Recent files" TextColor="#000000" FontSize="Title" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
-            <Label Text="See all" TextColor="#fb9649" FontSize="Medium" Grid.Column="1" VerticalOptions="Center"/>
-
-        </Grid>
-
-        <CollectionView x:Name="listView" 
-                   ItemsSource="{Binding DashBoardLists}"
-                            VerticalScrollBarVisibility="Default"
-                            Grid.Row="4" Margin="28,0,28,20" >
-
-            <CollectionView.ItemTemplate>
-
-                <DataTemplate >
-                    <Frame HeightRequest="89" Background="#fafafa" BorderColor="Transparent" CornerRadius="20" Margin="0,10,0,0">
-                        <Frame.Shadow>
-                            <Shadow
-                        Brush="#a6b1c0" 
-                Offset="20,20"
-                Radius="40"
-                Opacity="0.8"/>
-                        </Frame.Shadow>
-                        <Grid Padding="0">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="*"/>
-                                <ColumnDefinition Width="4*"/>
-                                <ColumnDefinition Width="*"/>
-                            </Grid.ColumnDefinitions>
-                            <Image Source="{Binding ImgUrl }" Grid.Column="0" VerticalOptions="Center"/>
-                            <Grid Grid.Column="1" Padding="0">
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="2*"/>
-                                    <RowDefinition Height="*"/>
-                                </Grid.RowDefinitions>
-                                <Label Text="{Binding Name}" TextColor="#323447" FontSize="Medium" FontAttributes="Bold" Grid.Row="0" VerticalOptions="Center" Margin="10,0,0,0"/>
-                                <Label Text="{Binding MemorySpace }" TextColor="#7e7f8b" FontSize="Small" Grid.Row="1" VerticalOptions="Start" Margin="10,0,0,0"/>
-
-                            </Grid>
-
-                            <Image Source="{Binding IconUrl}" Grid.Column="2" VerticalOptions="Center"/>
-                        </Grid>
-
-                    </Frame>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-
-        </CollectionView>
-        <ImageButton Grid.Row="4" Source="plus_icon.png" CornerRadius="30" 
-                     WidthRequest="90" HeightRequest="90" BackgroundColor="#ffa25c" 
-                     VerticalOptions="End" HorizontalOptions="End" Padding="15" Margin="40"/>
-    </Grid>
+        
 </ContentPage>

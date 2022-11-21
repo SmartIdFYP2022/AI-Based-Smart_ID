@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wGAEK9l1PN7U1rFvQDi6ZD+41Ckk6rYhKmUXqUKDenUOqiENWUey5KSz0M/CNcm3pjWBOZrKp8uwc7lw8tjb3w==",
+  "dgSpecHash": "AqMBXJapXqKQ6YjNo92M/X10bVb88dQ82g2eebtpKyO+EVIRuyVutkIz74Hs3Toxyw2baqmDPSLizmrhlaaU7g==",
   "success": true,
-  "projectFilePath": "F:\\7 th samester\\fyp1\\app\\Smart-ID\\Smart-ID\\Smart-ID.csproj",
+  "projectFilePath": "C:\\Users\\Umair\\source\\repos\\AI-Based-Smart_ID\\smart pay1\\Smart-ID\\Smart-ID\\Smart-ID.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Umair\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
     "C:\\Users\\Umair\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
