@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\navee\\source\\repos\\SmartIdFYP2022\\AI-Based-Smart_ID\\Smart-ID\\Smart-ID\\Smart-ID.csproj": {}
+    "C:\\Users\\navee\\Source\\Repos\\SmartIdFYP2022\\AI-Based-Smart_ID\\Smart-ID\\Smart-ID\\Smart-ID.csproj": {}
   },
   "projects": {
-    "C:\\Users\\navee\\source\\repos\\SmartIdFYP2022\\AI-Based-Smart_ID\\Smart-ID\\Smart-ID\\Smart-ID.csproj": {
+    "C:\\Users\\navee\\Source\\Repos\\SmartIdFYP2022\\AI-Based-Smart_ID\\Smart-ID\\Smart-ID\\Smart-ID.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\navee\\source\\repos\\SmartIdFYP2022\\AI-Based-Smart_ID\\Smart-ID\\Smart-ID\\Smart-ID.csproj",
+        "projectUniqueName": "C:\\Users\\navee\\Source\\Repos\\SmartIdFYP2022\\AI-Based-Smart_ID\\Smart-ID\\Smart-ID\\Smart-ID.csproj",
         "projectName": "Smart-ID",
-        "projectPath": "C:\\Users\\navee\\source\\repos\\SmartIdFYP2022\\AI-Based-Smart_ID\\Smart-ID\\Smart-ID\\Smart-ID.csproj",
+        "projectPath": "C:\\Users\\navee\\Source\\Repos\\SmartIdFYP2022\\AI-Based-Smart_ID\\Smart-ID\\Smart-ID\\Smart-ID.csproj",
         "packagesPath": "C:\\Users\\navee\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\navee\\source\\repos\\SmartIdFYP2022\\AI-Based-Smart_ID\\Smart-ID\\Smart-ID\\obj\\",
+        "outputPath": "C:\\Users\\navee\\Source\\Repos\\SmartIdFYP2022\\AI-Based-Smart_ID\\Smart-ID\\Smart-ID\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
