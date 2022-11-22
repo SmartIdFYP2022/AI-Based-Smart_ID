@@ -57,34 +57,234 @@
                     </Grid.RowDefinitions>
                     <Frame Grid.Column="0"
                            Grid.Row="0"
-                          
                            >
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Label 
+                                Text="LIBRARY"
+                                   HorizontalTextAlignment="Center"
+                                   TextDecorations="Underline"
+                                   Grid.Row="0"
+                                   FontAttributes="Bold">
+                            </Label>
+                            <Image Source="profile.png"
+                                   Grid.Row="1"
+                                   
+                                   ></Image>
+                            <Label 
+                                Grid.Row="2"
+                                Text="* programming with c++ ">
+
+                            </Label>
+
+
+                        </Grid>
 
                     </Frame>
                     <Frame Grid.Column="2"
                            Grid.Row="0">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Label 
+                                Text="LIBRARY"
+                                   HorizontalTextAlignment="Center"
+                                   TextDecorations="Underline"
+                                   Grid.Row="0"
+                                   FontAttributes="Bold">
+                            </Label>
+                            <Image Source="profile.png"
+                                   Grid.Row="1"
+                                   
+                                   ></Image>
+                            <Label 
+                                Grid.Row="2"
+                                Text="* programming with c++ ">
+
+                            </Label>
+
+
+                        </Grid>
 
                     </Frame>
                     <Frame Grid.Column="0"
                            Grid.Row="2"
-                           ></Frame>
+                           >
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Label 
+                                Text="LIBRARY"
+                                   HorizontalTextAlignment="Center"
+                                   TextDecorations="Underline"
+                                   Grid.Row="0"
+                                   FontAttributes="Bold">
+                                </Label>
+                            <Image Source="profile.png"
+                                   Grid.Row="1"
+                                   
+                                   > </Image>
+                            <Label 
+                                Grid.Row="2"
+                                Text="* programming with c++ ">
+                                
+                            </Label>
+                               
+
+                            </Grid>
+                        
+                    </Frame>
                     <Frame Grid.Column="2"
                            Grid.Row="2">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Label 
+                                Text="LIBRARY"
+                                   HorizontalTextAlignment="Center"
+                                   TextDecorations="Underline"
+                                   Grid.Row="0"
+                                   FontAttributes="Bold">
+                            </Label>
+                            <Image Source="profile.png"
+                                   Grid.Row="1"
+                                   
+                                   ></Image>
+                            <Label 
+                                Grid.Row="2"
+                                Text="* programming with c++ ">
 
+                            </Label>
+
+
+                        </Grid>
                     </Frame>
                     <Frame Grid.Column="0"
                            Grid.Row="4"
-                           ></Frame>
+                           >
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Label 
+                                Text="LIBRARY"
+                                   HorizontalTextAlignment="Center"
+                                   TextDecorations="Underline"
+                                   Grid.Row="0"
+                                   FontAttributes="Bold">
+                            </Label>
+                            <Image Source="profile.png"
+                                   Grid.Row="1"
+                                   
+                                   ></Image>
+                            <Label 
+                                Grid.Row="2"
+                                Text="* programming with c++ ">
+
+                            </Label>
+
+
+                        </Grid>
+                    </Frame>
                     <Frame Grid.Column="2"
                            Grid.Row="4">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Label 
+                                Text="LIBRARY"
+                                   HorizontalTextAlignment="Center"
+                                   TextDecorations="Underline"
+                                   Grid.Row="0"
+                                   FontAttributes="Bold">
+                            </Label>
+                            <Image Source="profile.png"
+                                   Grid.Row="1"
+                                   
+                                   ></Image>
+                            <Label 
+                                Grid.Row="2"
+                                Text="* programming with c++ ">
 
+                            </Label>
+
+
+                        </Grid>
                     </Frame>
                     <Frame Grid.Column="0"
                            Grid.Row="6"
-                           ></Frame>
+                           >
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Label 
+                                Text="LIBRARY"
+                                   HorizontalTextAlignment="Center"
+                                   TextDecorations="Underline"
+                                   Grid.Row="0"
+                                   FontAttributes="Bold">
+                            </Label>
+                            <Image Source="profile.png"
+                                   Grid.Row="1"
+                                   
+                                   ></Image>
+                            <Label 
+                                Grid.Row="2"
+                                Text="* programming with c++ ">
+
+                            </Label>
+
+
+                        </Grid>
+                    </Frame>
                     <Frame Grid.Column="2"
                            Grid.Row="6">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Label 
+                                Text="LIBRARY"
+                                   HorizontalTextAlignment="Center"
+                                   TextDecorations="Underline"
+                                   Grid.Row="0"
+                                   FontAttributes="Bold">
+                            </Label>
+                            <Image Source="profile.png"
+                                   Grid.Row="1"
+                                   
+                                   ></Image>
+                            <Label 
+                                Grid.Row="2"
+                                Text="* programming with c++ ">
 
+                            </Label>
+
+
+                        </Grid>
                     </Frame>
 
                 </Grid>
