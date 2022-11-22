@@ -34,14 +34,16 @@
                    BackgroundColor="White" 
                    BorderColor="Transparent"
                    CornerRadius="20"
-                   Margin="-20,0,0,-20">
-
+                   Margin="-20,0,0,-20"
+                   Padding="5">
+                <Label Text="Profile"></Label>
             </Frame>
         </Grid>
 
         <!--profile page view items   -->
         <ScrollView Grid.Row="2">
             <Frame BorderColor="Transparent"
+                    Margin="-5,0"
                  >
                 <Grid>
                     <Grid.ColumnDefinitions>

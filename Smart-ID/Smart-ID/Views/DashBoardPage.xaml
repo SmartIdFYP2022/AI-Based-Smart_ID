@@ -66,12 +66,12 @@
 
             <!--history user frame -->
             <Frame Grid.Row="2" 
-                   BackgroundColor="White" 
+                   BackgroundColor="White"
+                   Padding="15,3"
                    BorderColor="Transparent"
-                   Opacity="0.1"
                    CornerRadius="20"
                    Margin="2">
-                
+                <Label Text="Filter"></Label>
             </Frame>
             
             <!--DataGrid-->
@@ -81,8 +81,6 @@
                    BorderColor="Transparent"
                    CornerRadius="20"
                    Margin="2">
-
-                
             </Frame>
 
         </Grid>
