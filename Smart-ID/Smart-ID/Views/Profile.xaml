@@ -15,7 +15,7 @@
                          Grid.Row="0"
                          BackgroundColor="Transparent"
                          BorderColor="Transparent"
-                        VerticalOptions="CenterAndExpand"
+                         VerticalOptions="CenterAndExpand"
                          HorizontalOptions="Start"
                          Margin="20"
                          ></ImageButton>
@@ -24,19 +24,24 @@
                   
                   >
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="30"></ColumnDefinition>
-                <ColumnDefinition Width="65"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
 
             </Grid.ColumnDefinitions>
 
             <!--space left for forfile icon and text  -->
+            <Frame Grid.Column="0" 
+                   BackgroundColor="White" 
+                   BorderColor="Transparent"
+                   CornerRadius="20"
+                   Margin="-20,0,0,-20">
 
+            </Frame>
         </Grid>
 
         <!--profile page view items   -->
         <ScrollView Grid.Row="2">
-            <Frame 
-                   CornerRadius="20"
+            <Frame BorderColor="Transparent"
                  >
                 <Grid>
                     <Grid.ColumnDefinitions>
