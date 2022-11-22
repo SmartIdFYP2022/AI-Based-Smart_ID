@@ -10,18 +10,18 @@
 
         <vm:DashBoardViewModel />
     </ContentPage.BindingContext>
-    
+
+    <ScrollView>
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height="200"></RowDefinition>
-                <RowDefinition Height="200"></RowDefinition>
-                <RowDefinition Height="300"></RowDefinition>
+                <RowDefinition Height="1.5*"></RowDefinition>
                 <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="3*"></RowDefinition>
             </Grid.RowDefinitions>
-       
 
-        <!--top user profile frame -->
-        <Frame 
+
+            <!--top user profile frame -->
+            <Frame 
                 Grid.Row="0"
                 BackgroundColor="White"
                 VerticalOptions="FillAndExpand"
@@ -30,33 +30,27 @@
                 CornerRadius="50"
                 BorderColor="Transparent"
                 >
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*"></RowDefinition>
-                    <RowDefinition Height="*"></RowDefinition>
-                </Grid.RowDefinitions>
-                <Label Grid.Row="0" BackgroundColor="DarkOrange"></Label>
-                <Label Grid.Row="1" BackgroundColor="Yellow"></Label>
-            </Grid>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0" BackgroundColor="DarkOrange"></Label>
+                    <Label Grid.Row="1" BackgroundColor="Yellow"></Label>
+                </Grid>
+            </Frame>
 
-            <!--space for image profile button  -->
-
-        </Frame>
-
-        <!--history user frame -->
-        <Frame
-            Grid.Row="2"
-            >
-            <Grid >
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="40"></RowDefinition>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                </Grid.ColumnDefinitions>
-               
+            <!--history user frame -->
+            <Frame Grid.Row="1">
+                <Grid >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
                     <Button
                         Grid.Row="0"
                         Grid.Column="0"
@@ -65,7 +59,7 @@
                         FontSize="12"
                         TextColor="Black"
                         FontAttributes="Bold"></Button>
-                <Button
+                    <Button
                         Grid.Row="0"
                         Grid.Column="1"
                         Text="WEEK"
@@ -73,7 +67,7 @@
                         FontSize="12"
                         TextColor="Black"
                         FontAttributes="Bold"></Button>
-                <Button
+                    <Button
                         Grid.Row="0"
                         BackgroundColor="Transparent"
                         Grid.Column="2"
@@ -81,15 +75,51 @@
                         FontSize="12"
                         TextColor="Black"
                         FontAttributes="Bold"></Button>
-                   
-                   
-                
+                </Grid>
+            </Frame>
+
+            <!--history user frame -->
+            <Frame Grid.Row="2">
+                <Grid >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Button
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        Text="DAY"
+                        BackgroundColor="Transparent"
+                        FontSize="12"
+                        TextColor="Black"
+                        FontAttributes="Bold"></Button>
+                    <Button
+                        Grid.Row="0"
+                        Grid.Column="1"
+                        Text="WEEK"
+                        BackgroundColor="Transparent"
+                        FontSize="12"
+                        TextColor="Black"
+                        FontAttributes="Bold"></Button>
+                    <Button
+                        Grid.Row="0"
+                        BackgroundColor="Transparent"
+                        Grid.Column="2"
+                        Text="MONTH"
+                        FontSize="12"
+                        TextColor="Black"
+                        FontAttributes="Bold"></Button>
+                </Grid>
+            </Frame>
             
-            </Grid>
-        
-        </Frame>
-        
+            <!--Bottom Navigation-->
             
+
         </Grid>
-        
+    </ScrollView>
+
 </ContentPage>
