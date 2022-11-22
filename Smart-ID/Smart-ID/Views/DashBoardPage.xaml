@@ -4,7 +4,7 @@
              x:Class="Smart_ID.Views.DashBoardPage"
              xmlns:vm="clr-namespace:Smart_ID.ViewModels"
              Title="DashBoardPage"
-             BackgroundColor="#e9e9e9"
+             BackgroundColor="#0d1332"
              NavigationPage.HasNavigationBar="false">
     <ContentPage.BindingContext>
 
@@ -13,7 +13,7 @@
     
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height="100"></RowDefinition>
+                <RowDefinition Height="200"></RowDefinition>
                 <RowDefinition Height="200"></RowDefinition>
                 <RowDefinition Height="300"></RowDefinition>
                 <RowDefinition Height="*"></RowDefinition>
@@ -23,90 +23,24 @@
         <!--top user profile frame -->
         <Frame 
                 Grid.Row="0"
-                BackgroundColor="DarkOrange"
+                BackgroundColor="White"
                 VerticalOptions="FillAndExpand"
                 HorizontalOptions="FillAndExpand"
-                Margin="0,-30,0,0"
-                CornerRadius="40"
+                Margin="0"
+                CornerRadius="50"
                 BorderColor="Transparent"
                 >
             <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-
-                </Grid.ColumnDefinitions>
-               
-                       
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" BackgroundColor="DarkOrange"></Label>
+                <Label Grid.Row="1" BackgroundColor="Yellow"></Label>
             </Grid>
 
             <!--space for image profile button  -->
 
-        </Frame>
-
-        <!--user card frame -->
-        <Frame 
-            Grid.Row="1"
-            Margin="20,-30,20,25"
-            BackgroundColor="Purple"
-            BorderColor="Transparent">
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width=" *"></ColumnDefinition>
-                    <ColumnDefinition Width=" *"></ColumnDefinition>
-                </Grid.ColumnDefinitions>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="30"></RowDefinition>
-                    <RowDefinition Height="30"></RowDefinition>
-                    <RowDefinition Height="10"></RowDefinition>
-                    <RowDefinition Height="20"></RowDefinition>
-                    <RowDefinition Height="*"></RowDefinition>
-                </Grid.RowDefinitions>
-
-                <Label Text="Current balance"
-                           FontSize="12"
-                           BackgroundColor="Transparent"
-                           TextColor="White"
-                           Grid.Column="0"
-                           Grid.Row="0">
-                    
-                </Label>
-                <Label 
-                    Grid.Column="0"
-                    Grid.Row="1"
-                    Text="$234234.24"
-                    BackgroundColor="Transparent"
-                    TextColor="White"
-                    FontSize="20"
-                    FontAttributes="Bold"
-                    >
-                </Label>
-
-                <Label Grid.Row="3"
-                       Grid.Column="0"
-                       Text="Debit"
-                       BackgroundColor="Transparent"
-                       TextColor="White">
-                    
-                </Label>
-                <Frame
-                    Grid.Row="4"
-                    Grid.Column="0"
-                    Margin="10"></Frame>
-
-                <Label Grid.Row="3"
-                       Grid.Column="1"
-                       Text="Credit"
-                       BackgroundColor="Transparent"
-                       TextColor="White">
-
-                </Label>
-                <Frame
-                    Grid.Row="4"
-                    Grid.Column="1"
-                    Margin="10"></Frame>
-            </Grid>
-            
         </Frame>
 
         <!--history user frame -->

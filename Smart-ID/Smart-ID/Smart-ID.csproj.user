@@ -3,11 +3,15 @@
   <PropertyGroup>
     <ActiveDebugFramework>net6.0-android</ActiveDebugFramework>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
-    <ActiveDebugProfile>HUAWEI LDN-L21 (Android 8.0 - API 26)</ActiveDebugProfile>
-    <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
+    <ActiveDebugProfile>Naveed Phone (Android 13.0 - API 33)</ActiveDebugProfile>
+    <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
+    <DefaultDevice>naveed_phone</DefaultDevice>
   </PropertyGroup>
   <ItemGroup>
     <MauiXaml Update="Views\DashBoardPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\Profile.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>
