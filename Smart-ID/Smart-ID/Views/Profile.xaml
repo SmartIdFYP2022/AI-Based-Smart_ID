@@ -35,8 +35,8 @@
                    BorderColor="Transparent"
                    CornerRadius="20"
                    Margin="-20,0,0,-20"
-                   Padding="5">
-                <Label Text="Profile"></Label>
+                   Padding="25,10">
+                <Label Text="Profile" FontSize="Large" FontAttributes="Bold"></Label>
             </Frame>
         </Grid>
 
