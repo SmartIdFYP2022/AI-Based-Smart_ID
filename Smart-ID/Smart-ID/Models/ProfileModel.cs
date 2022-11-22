@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Smart_ID.Models
 {
-    internal class Profile
+    internal class ProfileModel
     {
     }
 }
