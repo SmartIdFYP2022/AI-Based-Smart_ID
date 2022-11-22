@@ -1,3 +1,5 @@
+C:\Users\Mahammad Naveed\source\repos\AI-Based-Smart_ID\Smart-ID\Smart-ID\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\System.Private.Xml.Linq.dll
+C:\Users\Mahammad Naveed\source\repos\AI-Based-Smart_ID\Smart-ID\Smart-ID\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mscordaccore.dll
 C:\Users\Mahammad Naveed\source\repos\AI-Based-Smart_ID\Smart-ID\Smart-ID\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Smart-ID.exe
 C:\Users\Mahammad Naveed\source\repos\AI-Based-Smart_ID\Smart-ID\Smart-ID\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
 C:\Users\Mahammad Naveed\source\repos\AI-Based-Smart_ID\Smart-ID\Smart-ID\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Smart-ID.deps.json
@@ -116,7 +118,6 @@ C:\Users\Mahammad Naveed\source\repos\AI-Based-Smart_ID\Smart-ID\Smart-ID\bin\De
 C:\Users\Mahammad Naveed\source\repos\AI-Based-Smart_ID\Smart-ID\Smart-ID\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\System.Private.CoreLib.dll
 C:\Users\Mahammad Naveed\source\repos\AI-Based-Smart_ID\Smart-ID\Smart-ID\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\System.Private.DataContractSerialization.dll
 C:\Users\Mahammad Naveed\source\repos\AI-Based-Smart_ID\Smart-ID\Smart-ID\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\System.Private.Uri.dll
-C:\Users\Mahammad Naveed\source\repos\AI-Based-Smart_ID\Smart-ID\Smart-ID\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\System.Private.Xml.Linq.dll
 C:\Users\Mahammad Naveed\source\repos\AI-Based-Smart_ID\Smart-ID\Smart-ID\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\System.Private.Xml.dll
 C:\Users\Mahammad Naveed\source\repos\AI-Based-Smart_ID\Smart-ID\Smart-ID\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\System.Reflection.DispatchProxy.dll
 C:\Users\Mahammad Naveed\source\repos\AI-Based-Smart_ID\Smart-ID\Smart-ID\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\System.Reflection.Emit.ILGeneration.dll
@@ -251,7 +252,6 @@ C:\Users\Mahammad Naveed\source\repos\AI-Based-Smart_ID\Smart-ID\Smart-ID\bin\De
 C:\Users\Mahammad Naveed\source\repos\AI-Based-Smart_ID\Smart-ID\Smart-ID\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\dbgshim.dll
 C:\Users\Mahammad Naveed\source\repos\AI-Based-Smart_ID\Smart-ID\Smart-ID\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\hostfxr.dll
 C:\Users\Mahammad Naveed\source\repos\AI-Based-Smart_ID\Smart-ID\Smart-ID\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\hostpolicy.dll
-C:\Users\Mahammad Naveed\source\repos\AI-Based-Smart_ID\Smart-ID\Smart-ID\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mscordaccore.dll
 C:\Users\Mahammad Naveed\source\repos\AI-Based-Smart_ID\Smart-ID\Smart-ID\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_6.0.1122.52304.dll
 C:\Users\Mahammad Naveed\source\repos\AI-Based-Smart_ID\Smart-ID\Smart-ID\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mscordbi.dll
 C:\Users\Mahammad Naveed\source\repos\AI-Based-Smart_ID\Smart-ID\Smart-ID\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mscorrc.dll
