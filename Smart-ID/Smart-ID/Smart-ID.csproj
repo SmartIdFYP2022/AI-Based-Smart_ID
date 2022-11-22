@@ -49,6 +49,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\list.png" />
 	  <None Remove="Resources\Images\profile.png" />
 	</ItemGroup>
 
