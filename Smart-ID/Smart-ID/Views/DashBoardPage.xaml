@@ -45,7 +45,8 @@
 
             <!--history user frame -->
             <Frame Grid.Row="1" 
-                   BackgroundColor="White" 
+                   Padding="10"
+                   BackgroundColor="Black" 
                    BorderColor="Transparent"
                    Opacity="0.1"
                    CornerRadius="20"
@@ -57,9 +58,9 @@
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
-                    <Label Grid.Column="0" BackgroundColor="Yellow"/>
-                    <Label Grid.Column="1" BackgroundColor="Green"/>
-                    <Label Grid.Column="2" BackgroundColor="Orange"/>
+                    <Frame Grid.Column="0" BackgroundColor="White" Margin="1,0" CornerRadius="20"/>
+                    <Frame Grid.Column="1" BackgroundColor="White" Margin="1,0" CornerRadius="20"/>
+                    <Frame Grid.Column="2" BackgroundColor="White" Margin="1,0" CornerRadius="20"/>
                 </Grid>
             </Frame>
 
@@ -73,14 +74,15 @@
                 
             </Frame>
             
-            <!--Bottom Navigation-->
+            <!--DataGrid-->
             <Frame Grid.Row="3" 
+                   Padding="5"
                    BackgroundColor="White" 
                    BorderColor="Transparent"
-                   Opacity="0.1"
                    CornerRadius="20"
                    Margin="2">
 
+                
             </Frame>
 
         </Grid>
