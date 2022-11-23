@@ -95,6 +95,8 @@ StyleCopReport.xml
 *.vs
 *bin
 *obj
+*v17
+*v15
 
 # Chutzpah Test files
 _Chutzpah*
