@@ -14,110 +14,74 @@
     <ScrollView>
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height="1.5*"></RowDefinition>
                 <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
                 <RowDefinition Height="3*"></RowDefinition>
             </Grid.RowDefinitions>
 
 
             <!--top user profile frame -->
+
             <Frame 
                 Grid.Row="0"
                 BackgroundColor="White"
+                Opacity="0.6"
                 VerticalOptions="FillAndExpand"
                 HorizontalOptions="FillAndExpand"
-                Margin="0"
-                CornerRadius="50"
+                Margin="-20,-25,-80,20"
+                CornerRadius="70"
                 BorderColor="Transparent"
                 >
+            </Frame>
+            <Frame 
+                Grid.Row="0"
+                BackgroundColor="White"
+                Opacity="0.6"
+                Margin="0,135,0,5"
+                BorderColor="Transparent"
+                >
+            </Frame>
+
+            <!--history user frame -->
+            <Frame Grid.Row="1" 
+                   Padding="10"
+                   BackgroundColor="Black" 
+                   BorderColor="Transparent"
+                   Opacity="0.1"
+                   CornerRadius="20"
+                   Margin="2"
+                   >
                 <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="*"></RowDefinition>
-                        <RowDefinition Height="*"></RowDefinition>
-                    </Grid.RowDefinitions>
-                    <Label Grid.Row="0" BackgroundColor="DarkOrange"></Label>
-                    <Label Grid.Row="1" BackgroundColor="Yellow"></Label>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Frame Grid.Column="0" BackgroundColor="White" Margin="1,0" CornerRadius="20"/>
+                    <Frame Grid.Column="1" BackgroundColor="White" Margin="1,0" CornerRadius="20"/>
+                    <Frame Grid.Column="2" BackgroundColor="White" Margin="1,0" CornerRadius="20"/>
                 </Grid>
             </Frame>
 
             <!--history user frame -->
-            <Frame Grid.Row="1">
-                <Grid >
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="40"></RowDefinition>
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"></ColumnDefinition>
-                        <ColumnDefinition Width="*"></ColumnDefinition>
-                        <ColumnDefinition Width="*"></ColumnDefinition>
-                    </Grid.ColumnDefinitions>
-                    <Button
-                        Grid.Row="0"
-                        Grid.Column="0"
-                        Text="DAY"
-                        BackgroundColor="Transparent"
-                        FontSize="12"
-                        TextColor="Black"
-                        FontAttributes="Bold"></Button>
-                    <Button
-                        Grid.Row="0"
-                        Grid.Column="1"
-                        Text="WEEK"
-                        BackgroundColor="Transparent"
-                        FontSize="12"
-                        TextColor="Black"
-                        FontAttributes="Bold"></Button>
-                    <Button
-                        Grid.Row="0"
-                        BackgroundColor="Transparent"
-                        Grid.Column="2"
-                        Text="MONTH"
-                        FontSize="12"
-                        TextColor="Black"
-                        FontAttributes="Bold"></Button>
-                </Grid>
-            </Frame>
-
-            <!--history user frame -->
-            <Frame Grid.Row="2">
-                <Grid >
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="40"></RowDefinition>
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"></ColumnDefinition>
-                        <ColumnDefinition Width="*"></ColumnDefinition>
-                        <ColumnDefinition Width="*"></ColumnDefinition>
-                    </Grid.ColumnDefinitions>
-                    <Button
-                        Grid.Row="0"
-                        Grid.Column="0"
-                        Text="DAY"
-                        BackgroundColor="Transparent"
-                        FontSize="12"
-                        TextColor="Black"
-                        FontAttributes="Bold"></Button>
-                    <Button
-                        Grid.Row="0"
-                        Grid.Column="1"
-                        Text="WEEK"
-                        BackgroundColor="Transparent"
-                        FontSize="12"
-                        TextColor="Black"
-                        FontAttributes="Bold"></Button>
-                    <Button
-                        Grid.Row="0"
-                        BackgroundColor="Transparent"
-                        Grid.Column="2"
-                        Text="MONTH"
-                        FontSize="12"
-                        TextColor="Black"
-                        FontAttributes="Bold"></Button>
-                </Grid>
+            <Frame Grid.Row="2" 
+                   BackgroundColor="White"
+                   Padding="15,3"
+                   BorderColor="Transparent"
+                   CornerRadius="20"
+                   Margin="2">
+                <Label Text="Filter"></Label>
             </Frame>
             
-            <!--Bottom Navigation-->
-            
+            <!--DataGrid-->
+            <Frame Grid.Row="3" 
+                   Padding="5"
+                   BackgroundColor="White" 
+                   BorderColor="Transparent"
+                   CornerRadius="20"
+                   Margin="2">
+            </Frame>
 
         </Grid>
     </ScrollView>

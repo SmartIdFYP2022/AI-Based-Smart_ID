@@ -49,9 +49,22 @@
 	</ItemGroup>
 
 	<ItemGroup>
+<<<<<<< HEAD
 	  <None Remove="Resources\Images\list.png" />
 	  <None Remove="Resources\Images\profile.png" />
 	  <None Remove="Resources\Images\sprofileimage.png" />
+=======
+	  <None Remove="Resources\Images\help.png" />
+	  <None Remove="Resources\Images\list.png" />
+	  <None Remove="Resources\Images\logout.png" />
+	  <None Remove="Resources\Images\man.png" />
+	  <None Remove="Resources\Images\pinlock.png" />
+	  <None Remove="Resources\Images\previous.png" />
+	  <None Remove="Resources\Images\privecy.png" />
+	  <None Remove="Resources\Images\profile.png" />
+	  <None Remove="Resources\Images\sprofileimage.png" />
+	  <None Remove="Resources\Images\user.png" />
+>>>>>>> e90bfe55b7b467a115288166c356cfd507a27913
 	</ItemGroup>
 
 	<ItemGroup>
@@ -59,6 +72,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\Profile.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Settings.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

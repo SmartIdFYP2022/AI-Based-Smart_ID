@@ -50,3 +50,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Smart_ID.Views.Profile.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Profile.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Profile.xaml
+
+[F:/7 th samester/fyp1/app/Smart-ID/Smart-ID/Views/Settings.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Smart_ID.Views.Settings.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Settings.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Settings.xaml

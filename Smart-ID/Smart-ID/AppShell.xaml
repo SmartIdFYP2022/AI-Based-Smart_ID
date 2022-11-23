@@ -15,6 +15,9 @@
         <Tab Title="Profile">
             <ShellContent ContentTemplate="{DataTemplate views:Profile}" />
         </Tab>
+        <Tab Title="Settings">
+            <ShellContent ContentTemplate="{DataTemplate views:Settings}" />
+        </Tab>
     </TabBar>
 
 </Shell>
