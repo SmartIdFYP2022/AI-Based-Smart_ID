@@ -92,6 +92,9 @@ StyleCopReport.xml
 *.pidb
 *.svclog
 *.scc
+*.vs
+*bin
+*obj
 
 # Chutzpah Test files
 _Chutzpah*
@@ -349,3 +352,11 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 /Speed.Web/Temp/Downloads
+/Smart-ID/Smart-ID/obj/Debug/net6.0-android/designtime/libraryprojectimports.cache
+/Smart-ID/Smart-ID/obj/Debug/net6.0-android/designtime/Resource.designer.cs
+/Smart-ID/Smart-ID/obj/Debug/net6.0-android/Smart-ID.assets.cache
+/Smart-ID/Smart-ID/obj/Debug/net6.0-ios/iossimulator-x64/Smart-ID.assets.cache
+/Smart-ID/Smart-ID/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/Smart-ID.assets.cache
+/Smart-ID/Smart-ID/obj/Debug/net6.0-windows10.0.19041.0/win10-x64/Smart-ID.assets.cache
+/Smart-ID/Smart-ID/obj/project.assets.json
+/Smart-ID/Smart-ID/obj/Smart-ID.csproj.nuget.dgspec.json
